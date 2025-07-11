@@ -1,4 +1,4 @@
-/* Reset and fonts */
+
 h3{
     font-size: large;
 }
@@ -52,7 +52,7 @@ body {
   
 
 }
-.logo {
+.logo-1 {
   font-weight: bold;
   font-size: 34px;
   color: #5b46f6;
@@ -110,9 +110,9 @@ body {
 .stats {
   background: #cdced8;
   text-align: center;
-  border-radius: 24px;
-  padding: 100px 50px;
-margin-bottom: auto;
+  border-radius: 34px;
+  padding-top: 40px;
+  padding-bottom: 150px;
   width: 1140px;
  height: 306px;
  
@@ -127,11 +127,10 @@ font-size: 40px;
   display: flex;
   justify-content:space-around;
   flex-wrap: wrap;
-  
-  font-size: ;
+
 }
 .stats-numbers div {
- padding-bottom: 500px;
+
   
 }
 .stats-numbers h2 {
@@ -151,7 +150,7 @@ font-size: 40px;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  align-items: flex-start;
+ 
   padding-top: 50px;
   width: 1140px;
   height: 500px;
@@ -268,9 +267,92 @@ button:hover {
   color: #4e4eff;
 }
 
+/* Testimonials */
+.testimonials {
+  padding: 4rem 2rem;
+  background-color: #f3f5fd;
+  text-align: center;
+}
 
+.testimonials h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #2a2a2a;
+}
 
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
 
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  text-align: left;
+}
 
+.stars {
+  color: #ffcc00;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
 
+.card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
 
+.card p {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.reviewer img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+/* Button */
+.button-wrapper {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.hover-button {
+  background-color: #e0b62a;
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  font-size: 3em;
+  cursor: pointer;
+  transition: background 0.5s ease;
+  border-radius: 30px;
+}
+
+.hover-button:hover {
+  background-color: #2b6cb0;
+}
