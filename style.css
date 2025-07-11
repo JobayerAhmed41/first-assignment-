@@ -222,4 +222,55 @@ button:hover {
 }
 
 
+/* footer */
+
+.footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #6e6e8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 429px;
+  width: 1440px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  padding: 50px;
+}
+
+.logo {
+  font-size: 72px;
+  color: #4e4eff;
+  margin-bottom: 20px;
+  font-weight: 900px;
+  padding-left: 290px;
+
+}
+
+.tagline {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.navigation a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  color: #6e6e8a;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #4e4eff;
+}
+
+
+
+
+
+
 
