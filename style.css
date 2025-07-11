@@ -1,0 +1,146 @@
+/* Reset and fonts */
+h3{
+    font-size: large;
+}
+body {
+  font-family: 'Segoe UI , Tahoma, Geneva, Verdana, sans-serif,Raleway';
+  background-color: #f6f8ff;
+  color: #1f1f1f;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.btn {
+  background: #5b46f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 132px;
+  height: 48px;
+  gap: 16;
+}
+.btn-primary {
+  background: #3f34d4;
+  height: 40px;
+  width: 250px;
+  
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('../../Hero-bg.png');
+  background-size: cover;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+  width: 1440px;
+  height: 698px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  font-family: Inter;
+  gap: 909px ;
+  padding: 50px;
+  
+
+}
+.logo {
+  font-weight: bold;
+  font-size: 34px;
+  color: #5b46f6;
+  font-family: Inter;
+  width: 54px;
+  height: 105px;
+}
+.hero h1 {
+  font-size: 65;
+  font-family: Raleway;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.hero-content{
+    
+}
+
+/* Preview Section */
+.preview {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  padding-bottom: 0px;
+  width:1140px ;
+  height: 328px;
+  gap: 100px;
+}
+.preview-text {
+  
+  height: 203px;
+  width: 517px;
+}
+.preview-text h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  width: 517px;
+  height: 49px;
+}
+.preview-text p {
+  margin-bottom: 20px;
+  color: #555457;
+  width: 517px;
+  height: 60px;
+  font-size: 24px;
+}
+.preview-image img {
+  width: 403px;
+  height: 328px;
+
+  border-radius: 48px;
+}
+
+/* Stats Section */
+.stats {
+  background: #cdced8;
+  text-align: center;
+  border-radius: 24px;
+  padding: 100px 50px;
+margin-bottom: auto;
+  width: 1140px;
+ height: 306px;
+ 
+}
+.stats h1 {
+font-weight: 800;
+font-size: 40px;
+  
+  
+}
+.stats-numbers {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  
+  font-size: ;
+}
+.stats-numbers div {
+ padding-bottom: 500px;
+  
+}
+.stats-numbers h2 {
+  font-size: 80px;
+  color: #5b46f6;
+  height: 97px;
+  width: 162px; 
+}
+.stats-numbers p{
+
+
+}
